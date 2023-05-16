@@ -1,0 +1,2 @@
+# ana680
+Project: Classification Using the Breast Cancer Dataset. This dataset has 699 patient data having 10 features and 1 class label describing whether the patient has cancer or not. Each row describes one patient, and the class column describes if the patient tumor is benign (label = 2) or malignant (label = 4). For this dataset, build all the classification models (using Python and Scikit-learn) 
