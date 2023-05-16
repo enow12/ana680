@@ -5,6 +5,7 @@
         <title>Cancer Classification</title>
 </head>
 <body>
+<h1>  This is an iris clasification site</h1>
         <form action="{{ url_for('predict')}}" method="POST">
                 Sepal_Length:   <input type="number" name="sepal_length"></br>
                 Sepal_Width:    <input type="number" name="sepal_width"></br>
@@ -13,6 +14,6 @@
 
                 <input type=submit value=Submit>
         </form>
-         My final prediction: {{ predict }}
+         <p style= "color: red;">My final prediction: {{ predict }} </p>
 </body>
 </html>
